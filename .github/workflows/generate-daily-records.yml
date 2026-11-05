@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
-      FIREBASE_DATABASE_URL: https://dunkindecor-default-rtdb.firebaseio.com
+      FIREBASE_DATABASE_URL: https://decornavona-default-rtdb.firebaseio.com
       FIREBASE_WEB_API_KEY: ${{ secrets.FIREBASE_WEB_API_KEY }}
       FIREBASE_AUTOMATION_EMAIL: ${{ secrets.FIREBASE_AUTOMATION_EMAIL }}
       FIREBASE_AUTOMATION_PASSWORD: ${{ secrets.FIREBASE_AUTOMATION_PASSWORD }}
