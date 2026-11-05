@@ -1,13 +1,12 @@
 // Configura tu Firebase aquí (debes crear un proyecto en https://console.firebase.google.com/)
 const firebaseConfig = {
-  apiKey: "AIzaSyDb4s_h95yOdIoPAoT53W6gFP4iBCC3q9Y",
-  authDomain: "dunkindecor.firebaseapp.com",
-  databaseURL: "https://dunkindecor-default-rtdb.firebaseio.com/",
-  projectId: "dunkindecor",
-  storageBucket: "dunkindecor.firebasestorage.app",
-  messagingSenderId: "204804849164",
-  appId: "1:204804849164:web:e3083e771d84662752f829",
-  measurementId: "G-50DQMHRGH4"
+  apiKey: "AIzaSyA7V8EeqUx7UaFQ4NVewlFHfsvAcO-wIXE",
+  authDomain: "decornavona.firebaseapp.com",
+  databaseURL: "https://decornavona-default-rtdb.firebaseio.com/",
+  projectId: "decornavona",
+  storageBucket: "decornavona.firebasestorage.app",
+  messagingSenderId: "1049572693869",
+  appId: "1:1049572693869:web:e2d49f35b4879b13d8ac64"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
@@ -25,8 +24,8 @@ const accessMessage = document.getElementById('access-message');
 const logoutButton = document.getElementById('logout-button');
 
 const authorizedStaffUids = [
-  'xnyOtwJ6EmU52Uyvv3GTsdwC7G42',
-  'QefolDuUlZQZUZPmGajLvZfszDC2'
+  '6hwaqkqlc4hkeJecnBO2i6ilEJG2',
+  'JMkjNjL7VZTMcVWyZP5O2f43r3x2'
 ];
 accessSubmit.disabled = false;
 
