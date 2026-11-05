@@ -3,8 +3,8 @@
     ".read": false,
     ".write": false,
     "registros": {
-      ".read": "auth != null && (auth.uid === 'xnyOtwJ6EmU52Uyvv3GTsdwC7G42' || auth.uid === 'QefolDuUlZQZUZPmGajLvZfszDC2')",
-      ".write": "auth != null && (auth.uid === 'xnyOtwJ6EmU52Uyvv3GTsdwC7G42' || auth.uid === 'QefolDuUlZQZUZPmGajLvZfszDC2')"
+      ".read": "auth != null && (auth.uid === 'JMkjNjL7VZTMcVWyZP5O2f43r3x2' || auth.uid === '6hwaqkqlc4hkeJecnBO2i6ilEJG2')",
+      ".write": "auth != null && (auth.uid === 'JMkjNjL7VZTMcVWyZP5O2f43r3x2' || auth.uid === '6hwaqkqlc4hkeJecnBO2i6ilEJG2')"
     }
   }
 }
