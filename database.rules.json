@@ -1,0 +1,10 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "registros": {
+      ".read": "auth != null && (auth.uid === 'xnyOtwJ6EmU52Uyvv3GTsdwC7G42' || auth.uid === 'QefolDuUlZQZUZPmGajLvZfszDC2')",
+      ".write": "auth != null && (auth.uid === 'xnyOtwJ6EmU52Uyvv3GTsdwC7G42' || auth.uid === 'QefolDuUlZQZUZPmGajLvZfszDC2')"
+    }
+  }
+}
